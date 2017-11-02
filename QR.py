@@ -1,4 +1,3 @@
 import secrets
-n=int(input("人数:"))
-for i in range(n):
+for i in range(int(input("人数:"))):
     print("http://example.com/?id="+secrets.token_urlsafe())
